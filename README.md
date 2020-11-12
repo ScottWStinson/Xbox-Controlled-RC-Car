@@ -1,5 +1,7 @@
 # Xbox-Controlled-RC-Car
 This project contains all of the requirements to program an xbox controller and RC car using a RaspberryPi and Adafruit_PCA9685 board. 
+The RC car has one servo and one brushless dc motor and one ESC(Electronic Speed Controller).
+The RC car is built based off the donkeycar specifications.
 
 This involves an Adafruit_PCA9685 board, pygame, xboxdrv, xbox controller python code, and a controller-to-rc car python code.
 
@@ -37,10 +39,12 @@ Download repository, run:
 run: `python/home/pi/Xbox-Controlled-RC-Car/control.py`
 
 
-To calibrate the throttle and steering, use the control.py code.
+To calibrate the throttle and steering, edit the control.py code.
 
 To run code on bootup, use:
 `sudo nano /etc/rc.local`
 go to end of file, after last line and before exit0, enter:
 `sudo xboxdrv --silent --detach-kernel-driver &
 python /home/pi/Xbox-Controlled-RC-Car/control.py`
+
+hit `ctl X` then `Y` then `enter`
