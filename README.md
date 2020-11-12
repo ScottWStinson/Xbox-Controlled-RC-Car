@@ -8,33 +8,33 @@ All of these libraries and files will be included in this repository EXCEPT xbox
 
 To download ans setup the Adafruit library, use:
 
-  sudo apt-get install git build-essential python-dev
+  'sudo apt-get install git build-essential python-dev
 
   cd ~
   git clone https://github.com/adafruit/Adafruit_Python_PCA9685.git
 
   cd Adafruit_Python_PCA9685
 
-  sudo python setup.py install
+  sudo python setup.py install'
 
 To download adafruit GPIO, run:
-  git clone https://github.com/adafruit/Adafruit_Python_GPIO.git
+  'git clone https://github.com/adafruit/Adafruit_Python_GPIO.git
   cd Adafruit_Python_GPIO
-  sudo python setup.py install
+  sudo python setup.py install'
 
 To download xboxdrv on the pi, run the command: 
-  sudo apt-get install xboxdrv
+  'sudo apt-get install xboxdrv'
 
 You must have xboxdrv running in background, so run:
 
-  sudo xboxdrv --silent --detach-kernel-driver &
+  'sudo xboxdrv --silent --detach-kernel-driver &'
 
 You also must have pygame, run:
-  python3 -m pip install -U pygame --user
+  'python3 -m pip install -U pygame --user'
 Download repository, run:
-git clone https://github.com/stinsun/Xbox-Controlled-RC-Car.git
+'git clone https://github.com/stinsun/Xbox-Controlled-RC-Car.git'
 
-run: python/home/pi/Xbox-Controlled-RC-Car/control.py
+run: 'python/home/pi/Xbox-Controlled-RC-Car/control.py'
 
 
 To calibrate the throttle and steering, use the control.py code.
