@@ -5,6 +5,7 @@ This involves an Adafruit_PCA9685 board, pygame, xboxdrv, xbox controller python
 
 All of these libraries and files will be included in this repository EXCEPT xboxdrv.
 
+
 To download ans setup the Adafruit library, use:
 
 sudo apt-get install git build-essential python-dev
@@ -18,6 +19,13 @@ sudo python setup.py install
 
 
 To download xboxdrv on the pi, run the command: sudo apt-get install xboxdrv
+
+You must have xboxdrv running in background, so run:
+
+sudo xboxdrv --silent --detach-kernel-driver &
+
+You also must have pygame, which is included, run:
+
 
 
 To calibrate the throttle and steering, use the control.py code.
