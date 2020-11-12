@@ -29,7 +29,8 @@ You must have xboxdrv running in background, so run:
   `sudo xboxdrv --silent --detach-kernel-driver &`
 
 You also must have pygame, run:
-  `python3 -m pip install -U pygame --user`
+  `pip3 install pygame`
+
 Download repository, run:
 `git clone https://github.com/stinsun/Xbox-Controlled-RC-Car.git`
 
