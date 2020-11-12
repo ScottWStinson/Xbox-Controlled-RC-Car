@@ -38,3 +38,9 @@ run: `python/home/pi/Xbox-Controlled-RC-Car/control.py`
 
 
 To calibrate the throttle and steering, use the control.py code.
+
+To run code on bootup, use:
+`sudo nano /etc/rc.local`
+go to end of file, after last line and before exit0, enter:
+`sudo xboxdrv --silent --detach-kernel-driver &
+python /home/pi/Xbox-Controlled-RC-Car/control.py`
