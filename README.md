@@ -10,8 +10,7 @@ To download ans setup the Adafruit library, use:
 
   `sudo apt-get install git build-essential python-dev`
 
-  `cd ~`
-  `git clone https://github.com/adafruit/Adafruit_Python_PCA9685.git`
+  `cd ~ git clone https://github.com/adafruit/Adafruit_Python_PCA9685.git`
 
   `cd Adafruit_Python_PCA9685`
 
