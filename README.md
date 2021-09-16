@@ -34,7 +34,7 @@ You also must have pygame, run:
   `pip3 install pygame`
 
 Download repository, run:
-`git clone https://github.com/stinsun/Xbox-Controlled-RC-Car.git`
+`git clone https://github.com/Scott/Xbox-Controlled-RC-Car.git`
 
 run: `python/home/pi/Xbox-Controlled-RC-Car/control.py`
 
